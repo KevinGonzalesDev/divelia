@@ -4,15 +4,15 @@
             <v-col cols="12" md="6" sm="6" class="d-none d-sm-flex">
                 <v-img class="bg-white" :aspect-ratio="1" src="../assets/banner1.jpg" cover></v-img>
             </v-col>
-            <v-col cols="12" md="6" sm="6" class="">
+            <v-col cols="12" md="6" sm="6" class="d-flex align-center">
                 <v-row>
-                    <v-col cols="12" class="d-flex justify-center d-flex d-sm-none">
-                        <v-img width="200px" height="100px" src="../assets/pngwing.com.png"></v-img>
+                    <v-col cols="12">
+                        <div class="d-flex d-sm-none">
+                            <v-img width="200px" height="100px" src="../assets/pngwing.com.png"></v-img>
+                        </div>
                     </v-col>
-                </v-row>
-                <v-row>
-                    <v-col cols="12" class="d-flex align-center justify-center">
-                        <v-card>
+                    <v-col cols="12" class="d-flex justify-center">
+                        <v-card max-width="600px">
                             <v-card-text>
                                 <v-card-title>
                                     <h2 class="text-red">Registrate para ingresar</h2>
@@ -44,6 +44,8 @@
                         </v-card>
                     </v-col>
                 </v-row>
+
+
 
 
 
